@@ -1,0 +1,72 @@
+footer, header {
+    background-color :grey
+}
+
+#title {
+    font-family:"Georgia";
+    color: purple;
+    font-size: 36px;
+    margin-left:600px
+}
+
+.indent, .steps {
+    font-family:"Aerial";
+    margin-top:60px;
+    color: green;
+    font-size: 25px;
+    margin-left:325px;
+    margin-top:60px
+}
+
+
+body {
+    margin:30px;
+    background-color: lightblue;
+}
+
+
+.steps {
+    font-family:"Georgia";
+    font-size: 30px;
+    margin-left:370px;
+    margin-top:60px
+}
+
+.box {
+    color:red;
+    margin-left:100px;
+    margin-bottom:80px;
+    border: 2px solid black;
+    padding-left:20px;
+    width: 35%;
+    height: 265px;
+    padding-top:10px
+}
+
+.ingredients {
+    color:red;
+    margin-left:100px;
+    margin-bottom:80px;
+    border: 2px solid black;
+    padding-left:20px;
+    width: 35%;
+    height: 190px;
+    padding-top:10px
+}
+
+.submit-btn {
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 18px;
+    color: white;
+    background-color: #28a745;
+    border: none;
+    border-radius: 50px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+.submit-btn:hover {
+    background-color: #218838;
+    transform: scale(1.05);
+}
